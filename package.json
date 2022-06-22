@@ -1,0 +1,26 @@
+{
+  "name": "express-boilerplate",
+  "type": "module",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "nut1414",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.0",
+    "socket.io": "^4.5.1"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^8.18.0",
+    "eslint-config-prettier": "^8.5.0",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16"
+  }
+}
