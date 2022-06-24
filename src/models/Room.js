@@ -7,6 +7,9 @@ const roomSchema = new mongoose.Schema({
       sender: {type: String}, 
       senderId: {type: String}, 
       data: {type: String}, 
+      content: {type: String}, 
+      contentType: {type: String}, 
+      'timestamp': {type: Number}
     }]
 }, {timestamp: true} )
 
